@@ -1,0 +1,67 @@
+/* Simple CSS for clean layout */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 24px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.message-list {
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.message-item {
+  background: #f1f1f1;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  color: #000;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
