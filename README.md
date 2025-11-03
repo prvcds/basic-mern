@@ -69,9 +69,3 @@ npm start
 * **Database:** MongoDB Atlas or local MongoDB
 
 ---
-
-## 📜 License
-
-This project is open-source and free to use.
-
----
