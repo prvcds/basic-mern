@@ -1,5 +1,3 @@
-# Basic MERN Stack Application
-
 A minimal MERN (MongoDB, Express, React, Node.js) application that allows users to add and view notes.  
 This project demonstrates the basic structure of a MERN stack app with models, controllers, routes, and a simple frontend.
 
